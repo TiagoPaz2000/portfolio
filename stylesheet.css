@@ -25,6 +25,10 @@ header li{
     border: #EFF6EE solid 2px;
     color: #EFF6EE;
 }
+header > a{
+    text-decoration: none;
+    color: #EFF6EE;
+}
 #section1{
     text-align: center;
     height: 400px;
@@ -56,7 +60,7 @@ header li{
     padding: 10px;
 }
 
-a{
+footer a{
     display: block;
     color: #DD0426;
     text-align: center;
