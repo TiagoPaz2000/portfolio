@@ -12,7 +12,6 @@ header{
     text-align: center;
     height: 100px;
     width: 100%;
-    border: black 2px solid;
 }
 header div{
     display: inline-block;
@@ -22,19 +21,14 @@ header li{
     display: inline;
     margin: 20px;
     font-size: 20px;
-    border: #EFF6EE solid 2px;
-    color: #EFF6EE;
 }
 header > a{
     text-decoration: none;
-    color: #EFF6EE;
 }
 #section1{
     text-align: center;
     height: 400px;
     padding: 20px;
-    background-color: #9197AE;
-    color: #EFF6EE;
 }
 
 #section1 img{
@@ -43,16 +37,12 @@ header > a{
     margin-left: auto;
     margin-right: auto;
     width: 200px;
-    border: #EFF6EE solid 4px;
 }
 
 #section2{
     background-color: #273043;
     padding: 20px;
     text-align: center;
-    border: black 2px solid;
-    color: #EFF6EE;
-   
 }
 
 #section2 ul, h4, li{
@@ -66,5 +56,16 @@ footer a{
     text-align: center;
     margin: 25px;
     text-decoration: none;
+}
 
+.borderWhite{
+    border: #EFF6EE solid 3px;  
+}
+
+.borderBlack{
+    border: black 2px solid;
+}
+
+.letterWhite{
+    color: #EFF6EE;
 }
