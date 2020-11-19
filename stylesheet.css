@@ -3,9 +3,12 @@
     margin: 0px;
     font-family: monospace, Tahoma;
 }
+body{
+    background-color: #9197AE;
+}
 
 header{
-    background-color: gray;  
+    background-color: #273043;  
     text-align: center;
     height: 100px;
     width: 100%;
@@ -19,27 +22,32 @@ header li{
     display: inline;
     margin: 20px;
     font-size: 20px;
-    border: black solid 2px;
+    border: #EFF6EE solid 2px;
+    color: #EFF6EE;
 }
 #section1{
     text-align: center;
     height: 400px;
     padding: 20px;
+    background-color: #9197AE;
+    color: #EFF6EE;
 }
 
 #section1 img{
-    padding: 20px;
+    margin: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+    border: #EFF6EE solid 4px;
 }
 
 #section2{
-    background-color: gray;
+    background-color: #273043;
     padding: 20px;
     text-align: center;
     border: black 2px solid;
+    color: #EFF6EE;
    
 }
 
@@ -50,7 +58,7 @@ header li{
 
 a{
     display: block;
-    color: red;
+    color: #DD0426;
     text-align: center;
     margin: 25px;
     text-decoration: none;
