@@ -38,3 +38,7 @@ button {
   color: rgb(144, 38, 38);
   border-color: red;
 }
+
+p {
+  text-align: center;
+}
