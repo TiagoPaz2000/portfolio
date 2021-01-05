@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  color: rgb(144, 38, 38);
+}
+
+fieldset {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin: 40px auto;
+  border-color: red;
+  padding: 5vh;
+}
+
+fieldset > label {
+  margin: 5px 0;
+}
+
+.forms > h1{
+  margin: 20px auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+button {
+  justify-content: center;
+  display: flex;
+  margin: 10px auto;
+  padding: 5px;
+  width: 100px;
+  color: rgb(144, 38, 38);
+  border-color: red;
+}
