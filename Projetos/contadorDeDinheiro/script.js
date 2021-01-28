@@ -37,3 +37,11 @@ function calc() {
   result2.innerHTML = 'Resultado de Notas: ' + valueNotas;
   result3.innerHTML = 'Resultado Total: ' + (valueMoedas + valueNotas);
 }
+
+const clearBtn = document.querySelector('#clearButton');
+clearBtn.addEventListener('click', () => {
+  result1.innerHTML = 'Resultado de Moedas: ';
+  result2.innerHTML = 'Resultado de Notas: ';
+  result3.innerHTML = 'Resultado Total: ';
+  values.forEach(element => element.value = '');
+})
