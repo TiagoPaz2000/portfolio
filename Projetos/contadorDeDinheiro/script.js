@@ -32,7 +32,10 @@ function calc() {
   })
   if (valueMoedas < 1) {
     valueMoedas = valueMoedas.toPrecision(2);
+  } else if (valueMoedas >= 1) {
+    valueMoedas = valueMoedas.toPrecision(4);
   }
+
   result1.innerHTML = 'Resultado de Moedas: ' + valueMoedas;
   result2.innerHTML = 'Resultado de Notas: ' + valueNotas;
   result3.innerHTML = 'Resultado Total: ' + (valueMoedas + valueNotas);
