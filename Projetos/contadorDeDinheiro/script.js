@@ -6,7 +6,7 @@ const result3 = document.querySelector('#result3');
 function teste() {
   let array = [];
   values.forEach(element => {
-    array.push(parseInt(element.value, 10));
+    array.push(parseFloat(element.value, 10));
   });
   const teste2 = array.map(element => {
     if (Number.isNaN(element)) {
@@ -31,10 +31,11 @@ function calc() {
     }
   })
 
-  result1.innerHTML = 'Resultado de Moedas: ' + valueMoedas;
+  let valueTotal = valueMoedas + valueNotas;
+
+  result1.innerHTML = 'Resultado de Moedas: ' + valueMoedas.toFixed(2);;
   result2.innerHTML = 'Resultado de Notas: ' + valueNotas;
-  result3.innerHTML = 'Resultado Total: ' + (valueMoedas + valueNotas);
-  console.log(typeof valueMoedas);
+  result3.innerHTML = 'Resultado Total: ' + valueTotal.toFixed(2);
 }
 
 const clearBtn = document.querySelector('#clearButton');
